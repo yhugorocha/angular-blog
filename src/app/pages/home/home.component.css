@@ -1,0 +1,17 @@
+.articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.articles__main{
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+.articles__others{
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
