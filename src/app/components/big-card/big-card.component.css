@@ -1,0 +1,27 @@
+.big__card{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.big__card > h1{
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.big__card > span, p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: rgb(125, 129, 129);
+}
+
+.big__card > span {
+  font-size: 12px;
+}
+
+.big__card > img {
+  width: 100%;
+  height: auto;
+}
