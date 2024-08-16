@@ -1,13 +1,14 @@
 <app-menu-title></app-menu-title>
 <div class="articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card id="1" photoCover={{photoCover}} datePublication={{datePublication}} cardTitle={{title}} cardDescription={{description}}></app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    @for (postagem of postagens; track $index) {
+      <app-small-card id={{postagem.id}} photoCover={{postagem.photoCover}} datePublication={{postagem.datePublication}} cardTitle={{postagem.title}}></app-small-card>
+    }
   </div>
 </div>
+
 
 
