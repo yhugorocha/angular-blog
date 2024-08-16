@@ -1,7 +1,6 @@
 <div class="big__card">
-  <img src="https://www.totvs.com/wp-content/uploads/2023/04/tecnologias-digitais.jpg" alt="blog" >
-  <span>Janeiro 11, 2024</span>
-  <h1>Texto dentro do h1 do card</h1>
-  <p>Texto dentro do p do card, Texto dentro do h1 do card, Texto dentro do h1 do card
-    , Texto dentro do h1 do card, Texto dentro do h1 do card, Texto dentro do h1 do card.</p>
+  <img src={{photoCover}} alt="blog" >
+  <span>{{datePublication}}</span>
+  <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
+  <a [routerLink]="['content', id]"><p>{{cardDescription}}</p></a>
 </div>
