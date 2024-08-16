@@ -1,8 +1,10 @@
+
 <div class="small__card">
-  <img src="https://www.totvs.com/wp-content/uploads/2023/04/tecnologias-digitais.jpg" alt="" srcset="">
+  <img src={{photoCover}} alt="" srcset="">
   <div class="small__content">
-    <span>Janeiro 11, 2024</span>
-    <h3>Texto dentro do h1 do card, ldspal dsaokda dsako dsa dk dsd ksdo.</h3>
+    <span>{{datePublication}}</span>
+    <h3><a [routerLink]="['content', id]">{{cardTitle}}</a></h3>
   </div>
 </div>
+
 
